@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Арканоид</title>
+  <style>
+    /* стили для всей страницы */
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    /* отдельные параметры для фона */
+    body {
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(image/2.gif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- рисуем игровое поле -->
+  <canvas width="400" height="500" id="game"></canvas>
+  <!-- сам скрипт с игрой -->
+  <script src="script.js"></script>
+</body>
+</html>
