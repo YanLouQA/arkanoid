@@ -3,4 +3,5 @@ Arkanoid Breakout browser mini-game HTML + JavaScript. Based on the original gam
 1. The game starts after you press the space bar. 
 2. The platform is controlled by the left and right arrows.
 3. After the message "Game over" you need to reload the page to try again.
+4. Have fun!
 
